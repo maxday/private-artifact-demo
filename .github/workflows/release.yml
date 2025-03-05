@@ -22,7 +22,7 @@ jobs:
         run: npm ci
 
       - name: Build
-        run: npm run build
+        run: npm run compile
 
       - name: Zip dist directory
         run: zip -r dist.zip dist/
